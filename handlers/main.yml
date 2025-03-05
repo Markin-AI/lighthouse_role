@@ -1,0 +1,6 @@
+---
+- name: HANDLER | Reload nginx config
+  ansible.builtin.service:
+    name: nginx
+    state: reloaded
+  listen: reload nginx
