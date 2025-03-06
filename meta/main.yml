@@ -17,8 +17,4 @@ galaxy_info:
 
   galaxy_tags: []
 
-dependencies:
-  - name: nginx
-    src: git@github.com:geerlingguy/ansible-role-nginx.git
-    version: "3.2.0"
-    scm: git
+dependencies: []
