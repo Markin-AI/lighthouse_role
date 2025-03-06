@@ -19,10 +19,6 @@ Role Variables
 Dependencies
 ------------
 
-| Role | Source | Description |
-| ---- | ---- | ---- |
-| nginxinc.nginx | git@github.com:nginxinc/ansible-role-nginx.git | Роль для инсталляции Nginx, необходим для запуска веб-сервера |
-
 Example Playbook
 ----------------
 
