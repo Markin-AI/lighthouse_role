@@ -19,6 +19,6 @@ galaxy_info:
 
 dependencies:
   - name: nginx
-    src: git@github.com:nginxinc/ansible-role-nginx.git
-    version: "0.25.2"
+    src: git@github.com:geerlingguy/ansible-role-nginx.git
+    version: "3.2.0"
     scm: git
