@@ -1,4 +1,9 @@
 ---
+- name: Lighthouse | install dependencies
+  become: true
+  ansible.builtin.yum:
+    name: git
+    state: present
 - name: INSTALL | Create bin and data directory
   ansible.builtin.file:
     path: "{{ item.path }}"
