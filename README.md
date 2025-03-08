@@ -19,6 +19,10 @@ Role Variables
 Dependencies
 ------------
 
+| Role | Source | Description |
+ | ---- | ---- | ---- |
+ | Markin-AI.nginx | git@github.com:Markin-AI/nginx-role.git | Роль для инсталляции Nginx, необходим для запуска веб-сервера |
+
 Example Playbook
 ----------------
 

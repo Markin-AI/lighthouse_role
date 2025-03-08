@@ -17,4 +17,8 @@ galaxy_info:
 
   galaxy_tags: []
 
-dependencies: []
+dependencies:
+   - name: nginx
+     src: git@github.com:Markin-AI/nginx-role.git
+     version: "1.0"
+     scm: git
